@@ -20,6 +20,15 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+main {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
 
 
 /*====== Chinese punctuation optimization ======*/
@@ -27,7 +36,7 @@ body {
 	font-family: "GB Punct";
 	font-weight: 400;
 	src: local("PingFang SC"), local("Hiragino Sans GB"), local("Heiti SC"), local("Microsoft YaHei UI"), local("Microsoft YaHei");
-	unicode-range: U+2014, U+00B7, U+2026, U+201C, U+201D;
+	unicode-range: U+2014, /*U+00B7,*/ U+2026, U+201C, U+201D;
 	/*
 		em dash,
 		middle dot,
