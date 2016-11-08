@@ -9,11 +9,29 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/.gh-pages": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/.gh-pages",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
+		},
+	"\/deploy.realfish": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/deploy.realfish",
+		"oF": 1
+		},
+	"\/deployInit.realfish": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/deployInit.realfish",
+		"oF": 1
 		},
 	"\/jade\/_head.jade": {
 		"cOD": 0,
@@ -2443,7 +2461,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/public",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/public, \/.gh-pages",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
