@@ -1,0 +1,48 @@
+/**
+ * Mixin
+ */
+
+.clearfix() {
+	&::after {
+		content: ".";
+		display: block;
+		height: 0;
+		visibility: hidden;
+		clear: both;
+		font-size: 0;
+	}
+}
+
+.color-transition() {
+	transition:
+		border-color .15s ease-out,
+		background-color .15s ease-out,
+		color .15s ease-out,
+		fill .15s ease-out,
+		opacity .15s ease-out;
+	will-change:
+		border-color,
+		background-color,
+		color,
+		fill,
+		opacity;
+}
+
+.deco-line(@width, @border-color) {
+	content: "";
+	display: block;
+	width: @width;
+	height: 0;
+	border-bottom: @border-color;
+}
+
+.image-cover-fill() {
+	background-size: cover;
+	background-position: center center;
+}
+
+.text-ellipsis() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
