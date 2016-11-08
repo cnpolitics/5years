@@ -1,0 +1,2 @@
+var CNP=CNP||{};!function(){"use strict";var t=document,e=t.getElementsByTagName("body")[0];e.addEventListener("touchstart",function(){})}(),function(){"use strict";for(var t=document,e=["iPhone","iPad","MQQBrowser"],a=navigator.userAgent,n=t.getElementsByTagName("html")[0],r=0;r<e.length;r++){var s=new RegExp(e[r]);a.match(s)&&n.classList.add("ua-"+e[r])}}();
+//# sourceMappingURL=./app.js.map
