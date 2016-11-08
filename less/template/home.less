@@ -1,0 +1,21 @@
+.home {
+	background-color: @red-main;
+}
+
+/* BG Arrow */
+.home-bg {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	z-index: (-@zIndex-1);
+	height: 100%;
+	opacity: .15;
+	transform: translateX(-50%);
+}
+#svg-big-arrow {
+	display: block;
+	height: 100%;
+}
+
+@import "home/home-sign.less";
+@import "home/home-entry.less";

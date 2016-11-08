@@ -1,0 +1,31 @@
+.five-body {
+	h3 {
+		margin-top: 48px;
+		font-size: 16px;
+		line-height: (26/16);
+		
+		&:first-of-type {
+			margin-top: 0;
+		}
+	}
+	
+	p {
+		margin-bottom: 1em;
+		font-size: 14px;
+		line-height: (24/14);
+		text-align: justify;
+	}
+	
+	a {
+		color: @red-main;
+	}
+	
+	.author {
+		&::before {
+			content: "◎";
+			margin-right: .25em;
+		}
+		
+		margin-right: .5em;
+	}
+}

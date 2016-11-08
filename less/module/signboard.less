@@ -1,0 +1,54 @@
+.signboard {
+	position: relative;
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: @bg-white;
+	color: @red-main;
+	
+	&::before {
+		top: 4px;
+		content: "";
+		position: absolute;
+		display: block;
+		width: 0;
+		height: 0;
+	}
+}
+.signboard--1 {
+	width: 58px;
+	padding-left: 24px;
+	padding-right: 10px;
+	border-radius: 0 2px 2px 0;
+	
+	&::before {
+		left: 4px;
+		border-left: 5px solid @red-main;
+		border-top: 5px solid @red-main;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+	}
+}
+.signboard--2 {
+	width: 120px;
+	padding-left: 12px;
+	padding-right: 10px;
+	border-radius: 2px 0 0 2px;
+	
+	&::before {
+		right: 4px;
+		border-right: 5px solid @red-main;
+		border-top: 5px solid @red-main;
+		border-left: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+	}
+}
+.signboard-heading {
+	font-size: 14px;
+	line-height: (16/14);
+}
+.signboard-desc {
+	margin-top: 4px;
+	font-size: 12px;
+	line-height: (16/12);
+}

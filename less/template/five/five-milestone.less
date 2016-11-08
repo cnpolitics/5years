@@ -1,0 +1,40 @@
+.five-milestone {
+	position: relative;
+	padding-top: 48px;
+	padding-bottom: 8px;
+	padding-left: 22px;
+	border-left: 2px solid @bg-white;
+	margin-left: 40px;
+	color: @bg-main;
+	font-size: 14px;
+	line-height: (20/14);
+	
+	&::before {
+		content: "";
+		position: absolute;
+		top: 52px;
+		left: -7px;
+		display: block;
+		width: 6px;
+		height: 6px;
+		border: 3px solid currentColor;
+		border-radius: 100%;
+		background-color: @red-main;
+	}
+	
+	h5 {
+		font-size: 1em;
+	}
+}
+
+.five-milestone--signboard {
+	position: relative;
+	padding-top: 48px;
+	padding-bottom: 72px;
+	border-left: 2px solid @bg-white;
+	margin-left: 40px;
+	
+	.signboard--1 {
+		margin-left: -2px;
+	}
+}

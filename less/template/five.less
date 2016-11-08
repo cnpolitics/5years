@@ -1,0 +1,53 @@
+.five {
+	.home-sign {
+		visibility: hidden;
+		transform:
+			translate3d(calc(-50vw + 17px), calc(-50vh + 29px), 0)
+			scale3d(0.5, 0.5, 1);
+		transition:
+			visibility 0s linear 1.75s,
+			transform 1.5s ease-in-out;
+	}
+	
+	/* Transitions for `.home-entry--1` */
+	.home-entry--1 {
+		transform: translate3d(calc(-50vw + 40px), calc(50vh + 40px), 0);
+	}
+	
+	/* Transitions for `.home-entry--2` */
+	.home-entry--2 {
+		transform: 
+			translate3d(calc(-50vw + 34px), calc(168px + 50vh), 0)
+			rotateZ(-135deg);
+	}
+}
+
+.five-main {
+	transform: translate3d(0, 100%, 0);
+	transition:
+		transform 1.5s ease-in-out 0s;
+	will-change:
+		transform;
+}
+.five .five-main {
+	transform: translate3d(0, 0, 0);
+	transition:
+		transform 1.5s ease-in-out .25s;
+}
+
+.five-main-wrap {
+	padding-top: 29px;
+	box-sizing: border-box;
+}
+
+.five-card {
+	padding: 24px;
+	border-radius: 4px;
+	margin: 0 8px;
+	background-color: @bg-white;
+}
+
+@import "five/five-sign";
+@import "five/five-head";
+@import "five/five-milestone";
+@import "five/five-body";

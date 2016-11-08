@@ -1,0 +1,36 @@
+doctype html
+
+block var
+	- var pageTitl
+	- var pageDisc
+	- var pageKeyw
+	- var bodyClass
+	- var bodyClassModifier
+
+- if (bodyClassModifier) bodyClassModifier = " " + bodyClassModifier
+
+html(lang="en")
+	block head
+		include _head
+	
+	body(class=(bodyClass + bodyClassModifier))
+		block bodyHeader
+			block bodyBackground
+		
+		block bodyMain
+			main(role="main")
+				block mainHeader
+				
+				block mainBody
+		
+		block bodyFooter
+			//- block modal
+				.modal
+					.modal-main
+						block modalMain
+		
+		block dotTemplate
+		block dotTemplateGlobal
+		
+		block bodyScripts
+			script(type="text/javascript" src="#{assetsPath}assets/app.js?v=#{verTag}")

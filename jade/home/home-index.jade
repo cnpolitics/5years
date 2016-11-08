@@ -1,0 +1,26 @@
+extends ../_template
+
+block var
+	- var assetsPath = "./"
+	- var pageTitl = "政见五周年" + ""
+	- var pageDisc = "The 5th Anniversary of CNPoltics｜政见五周年"
+	- var pageKeyw = "政见, 周年, 五周年, 中国, 政治, CNPolitics, China, Chinese, politics, anniversary, five-year"
+	- var bodyClass = "home"
+	- var bodyClassModifier = ""
+	//--- View data
+	-
+		var view = {
+		}
+	
+	//--- Fake data
+	-
+		var data = {
+		}
+
+block bodyBackground
+	.home-bg
+		include ../_svg/big-arrow.svg
+
+block mainBody
+	include module/cover
+	include module/five

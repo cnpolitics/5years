@@ -1,0 +1,33 @@
+.home-sign {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: (-@zIndex-1);
+	width: 96px;
+	height: 96px;
+	transform-origin: top left;
+	transform:
+		translate3d(-50%, -50%, 0)
+		scale3d(1,1,1);
+	will-change:
+		visibility,
+		tranform;
+	transition:
+		visibility 0s linear 0s,
+		transform 1.5s ease-in-out;
+}
+#svg-5years-sign {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.home-sign::after {
+	content: "";
+	position: absolute;
+	top: 90px;
+	left: 46px;
+	display: block;
+	width: 4px;
+	height: 3000px;
+	background-color: @bg-white;
+}
