@@ -3,7 +3,7 @@
 	
 	let doc = document;
 	
-	const UA_LIST = ['iPhone', 'iPad', 'MQQBrowser'];
+	const UA_LIST = ['Chrome', 'iPhone', 'iPad', 'Macintosh', 'MQQBrowser', 'Safari'];
 	let ua = navigator.userAgent;
 	let $html = doc.getElementsByTagName('html')[0];
 	
