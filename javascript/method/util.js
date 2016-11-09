@@ -81,6 +81,18 @@
 				setTimeout(scroll_frame, 0);
 			});
 		},
+		
+		/**
+		 * Ref: http://stackoverflow.com/a/28389320/3253041
+		 */
+		fixSafariScrollY: function(e) {
+			// console.log('fix');
+			e.target.style.overflowY = 'hidden';
+			setTimeout(function() {
+				e.target.style.overflowY = '';
+				e.target.removeEventListener('transitionend', CNP.util.fixSafariScrollY);
+			});
+		}
 	};
 
 })();
