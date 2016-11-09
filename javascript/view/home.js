@@ -10,7 +10,11 @@
 	};
 	let showEntry2 = function() {
 		$body.classList.add('five');
-		$fiveMain.addEventListener('transitionend', CNP.util.fixSafariScrollY);
+		
+		// If Safari on Mac, fix scrolling issue
+		if (CNP.util.uaIs('Macintosh') && CNP.util.uaIs('Safari') && !CNP.util.uaIs('Chrome')) {
+			$fiveMain.addEventListener('transitionend', CNP.util.fixSafariScrollY);
+		}
 	};
 	
 	let $entry1 = doc.querySelector('.home-entry--1');
