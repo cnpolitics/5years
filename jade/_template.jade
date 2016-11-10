@@ -24,10 +24,17 @@ html(lang="en")
 				block mainBody
 		
 		block bodyFooter
-			//- block modal
+			block modal
 				.modal
+					.modal-loading
+						i.modal-loading-spin
+							span.modal-loading-spin-dot.modal-loading-spin-dot--1
+							span.modal-loading-spin-dot.modal-loading-spin-dot--2
+							span.modal-loading-spin-dot.modal-loading-spin-dot--3
 					.modal-main
-						block modalMain
+						//- block modalMain
+						.modal-content
+						a.modal-close(href="javascript:void(0)")
 		
 		block dotTemplate
 		block dotTemplateGlobal

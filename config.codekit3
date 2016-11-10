@@ -177,7 +177,7 @@
 		},
 	"\/javascript\/_app.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/public\/assets\/app.js",
 		"oF": 3,
@@ -261,6 +261,24 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/javascript\/min\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/javascript\/method\/fetch.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/method\/min\/fetch-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/javascript\/method\/modal.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/method\/min\/modal-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -369,6 +387,23 @@
 		"sM": 1,
 		"sU": 1
 		},
+	"\/less\/layout\/modal.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/modal.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
 	"\/less\/layout\/scrollview.less": {
 		"aP": 0,
 		"bl": 0,
@@ -379,6 +414,23 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/less\/assets\/scrollview.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/module\/post.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/post.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -556,6 +608,14 @@
 		"sM": 1,
 		"sU": 1
 		},
+	"\/post\/1.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/1.html",
+		"oF": 3,
+		"oS": 1
+		},
 	"\/public": {
 		"ft": 65536,
 		"oA": 1,
@@ -595,13 +655,13 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/main.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/method\/fetch.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/ua.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/method\/modal.js",
 			"position": 2,
 			"type": 0
 			},
@@ -613,14 +673,26 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/view\/five.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/main.js",
 			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/ua.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/view\/five.js",
+			"position": 6,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/javascript\/view\/home.js",
-			"position": 5,
+			"position": 7,
 			"type": 1
 			}
 		],

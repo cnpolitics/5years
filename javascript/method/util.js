@@ -92,7 +92,16 @@
 				e.target.style.overflowY = '';
 				e.target.removeEventListener('transitionend', CNP.util.fixSafariScrollY);
 			});
-		}
+		},
+		
+		uaIs: function(uaString) {
+			var $html = document.getElementsByTagName('html')[0];
+			if ($html.classList.contains('ua-' + uaString)) {
+				return true;
+			} else {
+				return false;
+			}
+		},
 	};
 
 })();
