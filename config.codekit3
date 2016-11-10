@@ -9,92 +9,10 @@
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/.gh-pages\/assets\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/.gh-pages": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/app-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/.gh-pages\/assets\/app.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/min\/app-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/.gh-pages\/assets\/apple-touch-icon-120.png": {
-		"ft": 32768,
-		"iS": 8056,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/apple-touch-icon-120.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/.gh-pages\/assets\/apple-touch-icon-152.png": {
-		"ft": 32768,
-		"iS": 11091,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/apple-touch-icon-152.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/.gh-pages\/assets\/apple-touch-icon-180.png": {
-		"ft": 32768,
-		"iS": 12909,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/apple-touch-icon-180.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/.gh-pages\/assets\/apple-touch-icon-76.png": {
-		"ft": 32768,
-		"iS": 4834,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/apple-touch-icon-76.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/.gh-pages\/assets\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 8056,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/apple-touch-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/.gh-pages\/assets\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gh-pages\/assets\/favicon.ico",
-		"oF": 0
-		},
-	"\/.gh-pages\/assets\/libs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/min\/libs-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/.gh-pages\/assets\/wechat-thumb.jpg": {
-		"ft": 16384,
-		"iS": 14398,
-		"oA": 1,
-		"oAP": "\/.gh-pages\/assets\/wechat-thumb.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/.gh-pages\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gh-pages\/index.html",
+		"oAP": "\/build\/.gh-pages",
 		"oF": 0
 		},
 	"\/.gitignore": {
@@ -177,7 +95,7 @@
 		},
 	"\/javascript\/_app.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/public\/assets\/app.js",
 		"oF": 3,
@@ -360,7 +278,7 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/public\/assets\/app.css",
 		"oF": 3,
@@ -2615,7 +2533,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/public",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/public, \/.gh-pages",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
