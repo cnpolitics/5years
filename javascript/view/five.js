@@ -5,12 +5,14 @@
 	let $body = doc.getElementsByTagName('body')[0];
 	let $fiveMain = doc.querySelector('.five-main');
 	
+	// Back to the Cover view
 	let backHome = function () {
 		$body.className = 'home';
 	};
 	let $fiveSign = doc.querySelector('.five-sign');
 	$fiveSign.addEventListener('click', backHome);
-
+	
+	// Enter the Five view
 	let switchToEntry1 = function () {
 		CNP.util.scroll($fiveMain, 0, 2000)
 		.then(function(){

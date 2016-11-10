@@ -1,0 +1,105 @@
+.post {
+	width: 100%;
+}
+
+/*--- Head ---*/
+.post header {
+	padding-top: 48px;
+	margin-bottom: 48px;
+	/*text-align: center;*/
+}
+
+.post header .tag {
+	margin: 8px 24px 8px;
+	font-size: 14px;
+	
+	li {
+		display: inline-block;
+		margin-right: 8px;
+		color: @text-sub;
+		
+		&::before {
+			content: "#";
+		}
+	}
+}
+
+.post header h1 {
+	margin: 0 22px;
+	color: @red-main;
+	font-size: 24px;
+	line-height: (32/24);
+}
+
+.post header .meta {
+	margin: 24px 24px;
+	font-size: 14px;
+}
+.post header .meta .author {
+	&::before {
+		content: "◎";
+		margin-right: .25em;
+	}
+}
+.post header .meta time {
+	
+	&::before {
+		content: "·";
+		margin: 0 .5em;
+	}
+}
+/*--- Head END ---*/
+
+/*--- Body ---*/
+.post section {
+	margin: 48px auto;
+}
+.post section p {
+	margin: 1em 24px;
+	font-size: 17px;
+	line-height: (28/17);
+	text-align: justify;
+}
+
+/*--- Endnote ---*/
+.post .endnote {
+	margin: 0 24px;
+	font-size: 14px;
+	line-height: (24/14);
+}
+
+.post .endnote h4 {
+	margin-top: 24px;
+	font-size: 14px;
+}
+
+.post .endnote ul {
+	padding-left: 1em;
+	/*counter-reset: olNum;*/
+	
+	li {
+		position: relative;
+		margin: .5em auto;
+	}
+	li::before {
+		position: absolute;
+		top: 0;
+		display: inline-block;
+		width: 1em;
+		text-align: right;
+		user-select: none;
+	}
+}
+.post .endnote ul li::before {
+	content: "•";	// • ◎ ◉
+	top: -1px;
+	left: -1.3em;
+}
+
+/*--- Foot ---*/
+.post footer {
+	margin: 24px;
+	color: @text-sub;
+	font-size: 14px;
+	line-height: (24/14);
+}
