@@ -177,7 +177,7 @@
 		},
 	"\/javascript\/_app.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/public\/assets\/app.js",
 		"oF": 3,
@@ -360,7 +360,7 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/public\/assets\/app.css",
 		"oF": 3,
