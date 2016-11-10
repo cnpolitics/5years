@@ -1,9 +1,9 @@
 /**
  * Prepend list:
  * - _define.js
+ * - method/*.js
  * - main.js
  * - ua.js
- * - method/*.js
  * 
  * Append list:
  * - view/*.js

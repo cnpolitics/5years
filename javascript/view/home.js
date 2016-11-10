@@ -3,12 +3,18 @@
 	
 	let doc = document;
 	let $body = doc.getElementsByTagName('body')[0];
+	let $fiveMain = doc.querySelector('.five-main');
 	
 	let showEntry1 = function() {
 		alert('entry1');
 	};
 	let showEntry2 = function() {
 		$body.classList.add('five');
+		
+		// If Safari on Mac, fix scrolling issue
+		if (CNP.util.uaIs('Macintosh') && CNP.util.uaIs('Safari') && !CNP.util.uaIs('Chrome')) {
+			$fiveMain.addEventListener('transitionend', CNP.util.fixSafariScrollY);
+		}
 	};
 	
 	let $entry1 = doc.querySelector('.home-entry--1');

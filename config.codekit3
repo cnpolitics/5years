@@ -9,11 +9,29 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/.gh-pages": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/.gh-pages",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
+		},
+	"\/deploy.realfish": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/deploy.realfish",
+		"oF": 1
+		},
+	"\/deployInit.realfish": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/deployInit.realfish",
+		"oF": 1
 		},
 	"\/jade\/_head.jade": {
 		"cOD": 0,
@@ -22,6 +40,26 @@
 		"oAP": "\/_head.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/jade\/_svg\/5years-sign.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/jade\/_svg\/5years-sign.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/jade\/_svg\/big-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/jade\/_svg\/big-arrow.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088191,
+		"prP": 0
 		},
 	"\/jade\/_template.jade": {
 		"cOD": 0,
@@ -38,6 +76,22 @@
 		"oAP": "\/public\/index.html",
 		"oF": 3,
 		"oS": 1
+		},
+	"\/jade\/home\/module\/cover.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/jade\/home\/cover.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/jade\/home\/module\/five.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/jade\/home\/five.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/javascript\/_app.js": {
 		"ft": 64,
@@ -129,11 +183,56 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/javascript\/method\/fetch.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/method\/min\/fetch-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/javascript\/method\/modal.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/method\/min\/modal-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/javascript\/method\/util.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/method\/min\/util-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/javascript\/ua.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/javascript\/min\/ua-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/javascript\/view\/five.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/view\/min\/five-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/javascript\/view\/home.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/view\/min\/home-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -179,7 +278,7 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/public\/assets\/app.css",
 		"oF": 3,
@@ -206,6 +305,159 @@
 		"sM": 1,
 		"sU": 1
 		},
+	"\/less\/layout\/modal.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/modal.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/layout\/scrollview.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/scrollview.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/module\/post.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/post.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/module\/signboard.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/signboard.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/five.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/five.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/five\/five-body.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/five-body.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/five\/five-head.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/five-head.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/five\/five-milestone.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/five-milestone.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/five\/five-sign.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/five-sign.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
 	"\/less\/template\/home.less": {
 		"aP": 0,
 		"bl": 0,
@@ -216,6 +468,40 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/less\/assets\/home.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/home\/home-entry.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/home-entry.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/home\/home-sign.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/home-sign.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -240,11 +526,39 @@
 		"sM": 1,
 		"sU": 1
 		},
+	"\/post\/1.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/1.html",
+		"oF": 3,
+		"oS": 1
+		},
 	"\/public": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/public",
 		"oF": 0
+		},
+	"\/svg\/5years-sign.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/jade\/_svg\/5years-sign.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/svg\/big-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/jade\/_svg\/big-arrow.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
 		}
 	},
 "hooks": [
@@ -259,15 +573,45 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/main.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/method\/fetch.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/ua.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/method\/modal.js",
 			"position": 2,
 			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/method\/util.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/main.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/ua.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/view\/five.js",
+			"position": 6,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/view\/home.js",
+			"position": 7,
+			"type": 1
 			}
 		],
 	"\/javascript\/_libs.js": [
@@ -2189,7 +2533,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/public",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/public, \/.gh-pages",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
