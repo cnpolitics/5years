@@ -40,6 +40,10 @@
 		content: "◎";
 		margin-right: .25em;
 	}
+	
+	& + .author {
+		margin-left: 1em;
+	}
 }
 .post header .meta time {
 	
@@ -51,14 +55,53 @@
 /*--- Head END ---*/
 
 /*--- Body ---*/
-.post section {
+.post section:not(.endnote) {
 	margin: 48px auto;
 }
-.post section p {
+.post section:not(.endnote) h3 {
+	margin: 30px 24px 17px;
+	font-size: 19px;
+	line-height: (30/19);
+}
+.post section:not(.endnote) p {
 	margin: 1em 24px;
 	font-size: 17px;
 	line-height: (28/17);
 	text-align: justify;
+	
+	ruby > rt {
+		color: @red-main;
+		font-size: 12px;
+		line-height: 1;
+	}
+}
+.post section:not(.endnote) ul {
+	padding-left: 1em;
+	margin: 1em 24px;
+	font-size: 17px;
+	line-height: (28/17);
+	
+	li {
+		position: relative;
+		margin: .5em auto;
+	}
+	li::before {
+		content: "•";	// • ◎ ◉
+		position: absolute;
+		top: -1px;
+		left: -1.4em;
+		display: inline-block;
+		width: 1em;
+		text-align: right;
+		user-select: none;
+	}
+}
+.post section:not(.endnote) figure {
+	width: 100%;
+	
+	img {
+		width: 100%;
+	}
 }
 
 /*--- Endnote ---*/
@@ -71,6 +114,19 @@
 .post .endnote h4 {
 	margin-top: 24px;
 	font-size: 14px;
+}
+
+.post .endnote h5:lang(en) {
+	margin-top: 7px;
+	margin-left: 1em;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.post .endnote p:lang(en) {
+	margin: 1em 0;
+	font-size: 14px;
+	line-height: (22/14);
 }
 
 .post .endnote ul {
@@ -90,11 +146,19 @@
 		user-select: none;
 	}
 }
+.post .endnote ul:lang(en) {
+	line-height: (22/14);
+}
 .post .endnote ul li::before {
 	content: "•";	// • ◎ ◉
 	top: -1px;
 	left: -1.3em;
 }
+.post .endnote u {
+	border-bottom: 1px solid currentColor;
+	text-decoration: none;
+}
+/*--- Endnote END ---*/
 
 /*--- Foot ---*/
 .post footer {
@@ -103,3 +167,4 @@
 	font-size: 14px;
 	line-height: (24/14);
 }
+/*--- Foot END ---*/
