@@ -16,7 +16,10 @@
 	let switchToEntry1 = function () {
 		CNP.util.scroll($fiveMain, 0, 2000)
 		.then(function(){
-			$body.className = 'home eight';
+			$body.className = 'home is-exchanging eight';
+			setTimeout(function() {
+				$body.className = 'home eight';
+			});
 		});
 	};
 	let $board1 = doc.querySelector('.five-main .signboard--1');
