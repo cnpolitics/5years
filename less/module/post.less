@@ -75,10 +75,13 @@
 	font-size: 17px;
 	line-height: (28/17);
 	text-align: justify;
+	.ua-MQQBrowser & {
+		text-align: left;
+	}
 	
 	ruby > rt {
 		color: @red-main;
-		font-size: 12px;
+		font-size: 10px;
 		line-height: 1;
 	}
 }
@@ -165,6 +168,10 @@
 	border-bottom: 1px solid currentColor;
 	text-decoration: none;
 }
+.post .endnote a {
+	border-bottom: 1px solid currentColor;
+	color: @text-main;
+}
 /*--- Endnote END ---*/
 
 /*--- Foot ---*/
@@ -173,5 +180,10 @@
 	color: @text-sub;
 	font-size: 14px;
 	line-height: (24/14);
+	
+	a {
+		border-bottom: 1px solid currentColor;
+		color: @text-main;
+	}
 }
 /*--- Foot END ---*/
