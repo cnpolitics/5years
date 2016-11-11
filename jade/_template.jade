@@ -14,6 +14,8 @@ html(lang="en")
 		include _head
 	
 	body(class=(bodyClass + bodyClassModifier))
+		.wechat-thumb(style="display:none")
+			img(src="#{assetsPath}assets/wechat-thumb.jpg?v=#{verTag}")
 		block bodyHeader
 			block bodyBackground
 		
