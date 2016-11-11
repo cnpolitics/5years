@@ -1,0 +1,44 @@
+.eight-milestone {
+	position: relative;
+	padding-top: 48px;
+	padding-bottom: 8px;
+	padding-right: 22px;
+	border-right: 2px solid @bg-white;
+	margin-right: 40px;
+	color: @bg-main;
+	font-size: 14px;
+	text-align: right;
+	line-height: (20/14);
+	
+	&::after {
+		content: "";
+		position: absolute;
+		top: 52px;
+		right: -7px;
+		display: block;
+		width: 6px;
+		height: 6px;
+		border: 3px solid currentColor;
+		border-radius: 100%;
+		background-color: @red-main;
+	}
+	
+	h5 {
+		font-size: 1em;
+	}
+}
+
+.eight-milestone--signboard {
+	position: relative;
+	padding-top: 48px;
+	padding-bottom: 72px;
+	border-right: 2px solid @bg-white;
+	margin-right: 40px;
+	text-align: right;
+	
+	.signboard--2 {
+		display: inline-block;
+		margin-right: -2px;
+		text-align: left;
+	}
+}
