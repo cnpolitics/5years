@@ -19,7 +19,7 @@
 			$body.className = 'home is-exchanging five';
 			setTimeout(function() {
 				$body.className = 'home five';
-			});
+			}, 10);
 		});
 	};
 	let $board1 = doc.querySelector('.eight-main .signboard--2');
