@@ -85,6 +85,14 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/jade\/home\/module\/eight.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/jade\/home\/eight.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/jade\/home\/module\/five.jade": {
 		"cOD": 0,
 		"ft": 512,
@@ -215,6 +223,15 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/javascript\/min\/ua-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/javascript\/view\/eight.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/view\/min\/eight-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -366,6 +383,91 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/less\/assets\/signboard.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/eight.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/assets\/eight.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/eight\/eight-body.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/eight-body.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/eight\/eight-head.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/eight-head.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/eight\/eight-milestone.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/eight-milestone.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/less\/template\/eight\/eight-sign.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/template\/assets\/eight-sign.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -525,6 +627,70 @@
 		"sI": 0,
 		"sM": 1,
 		"sU": 1
+		},
+	"\/post\/eight\/1.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/1.html",
+		"oF": 3,
+		"oS": 1
+		},
+	"\/post\/eight\/2.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/2.html",
+		"oF": 3,
+		"oS": 1
+		},
+	"\/post\/eight\/3.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/3.html",
+		"oF": 3,
+		"oS": 1
+		},
+	"\/post\/eight\/4.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/4.html",
+		"oF": 3,
+		"oS": 1
+		},
+	"\/post\/eight\/5.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/5.html",
+		"oF": 3,
+		"oS": 1
+		},
+	"\/post\/eight\/6.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/6.html",
+		"oF": 3,
+		"oS": 1
+		},
+	"\/post\/eight\/7.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/7.html",
+		"oF": 3,
+		"oS": 1
+		},
+	"\/post\/eight\/8.jade": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/public\/post\/eight\/8.html",
+		"oF": 3,
+		"oS": 1
 		},
 	"\/post\/five\/1.jade": {
 		"cOD": 0,
@@ -795,14 +961,20 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/view\/five.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/view\/eight.js",
 			"position": 6,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/view\/home.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/view\/five.js",
 			"position": 7,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/view\/home.js",
+			"position": 8,
 			"type": 1
 			}
 		],
