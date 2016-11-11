@@ -981,20 +981,8 @@
 	"\/javascript\/_libs.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/_vendor\/modernizr-nmqa.js",
-			"position": 0,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/_vendor\/doT.min.js",
-			"position": 1,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/javascript\/_polyfill\/fetch.js",
-			"position": 2,
+			"position": 0,
 			"type": 1
 			}
 		]
